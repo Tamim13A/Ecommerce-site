@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="this is an ecommerce project">
+    <title>Ecommerce project</title>
+
+    <!--font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar start here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-arround">
+            <li class="nav__list">
+        <a href="index.html" class="nav__link">Home</a>
+        </li>
+        <li class="nav__list">
+            <a href="offer.html" class="nav__link">Offer</a>
+            </li>
+            <li class="nav__list">
+                <a href="product.html" class="nav__link">Product</a>
+                </li>
+                <li class="nav__list">
+                    <a href="account.html" class="nav__link">Account</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="about.html" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__list">
+                            <a href="contact.html" class="nav__link">Contact</a>
+                            </li>
+        </ul>
+    <ul class="nav-lower flex-space-arround">
+                <li class="nav__list">
+        <a href="index.html" class="nav__brand nav__link">Game Center</a>
+                </li>
+            <li class="nav__list">
+    <a href="cart.html" class="nav__link"><span><i class="fa-solid fa-cart-shopping">       
+    </i></span>
+    cart 2 products - $1018
+    </a>
+    </li>
+        </nav>
+    <!-- navbar end here -->
+    <main>
+        <div class="cart flex-center">
+        <div class="cart__item">
+       <div class="cart_-items-heading card">
+        <h2>Shopping Cart [2 items] </h2>
+        <div class="cart__items-actions">
+            <lable for="select">
+                <input type="checkbox" name="select" id="select">Select all items
+            </lable>
+            <button class="btn">
+              <i class="fas fa-trash-alt"></i>  
+            </button>
+            <button class="btn">Shop More</button>
+            </div>
+        </div>
+
+        <div class="cart__item card flex-center-around">
+           <input type="checkbox" name="" id=""/>
+           <img src="./New folder (3)/p1.png" alt="product 1" class="cart__item-img">
+           <div class="cart__item-discription">
+           <h3 class="product__name">Gaming Pc</h3>
+           <h4 class="product__price">Price: $999</h4>
+           <p class="cart__item-shipping">Free Shipping</p>
+           </div>
+           <div class="cart__item-actions">
+           <button class="btn"><i class="fas fa-trash-alt"></i></button> 
+            <div>
+                <button class="btn"><i class="fas fa-add"></i></button> 
+                <span>1</span>
+                <button class="btn"><i class="fas fa-minus"></i></button> 
+                </div>
+           </div>
+        </div>
+        <div class="cart__item card flex-center-around">
+            <input type="checkbox" name="" id=""/>
+            <img src="./New folder (3)/p7.png" alt="product 7" class="cart__item-img">
+            <div class="cart__item-discription">
+            <h3 class="product__name">Games</h3>
+            <h4 class="product__price">Price: $19</h4>
+            <p class="cart__item-shipping">Free Shipping</p>
+            </div>
+            <div class="cart__item-actions">
+            <button class="btn"><i class="fas fa-trash-alt"></i></button> 
+             <div>
+                 <button class="btn"><i class="fas fa-add"></i></button> 
+                 <span>1</span>
+                 <button class="btn"><i class="fas fa-minus"></i></button> 
+                 </div>
+            </div>
+         </div>
+        </div> 
+        <div class="cart__payment">
+            <div class="cart__payment-summary card">
+            <h2>Payment Summary</h2>               
+         <div>
+            <p>subtotal:</p>
+            <p>$1018.00</p>
+            </div>   
+            <div>
+                <p>Shipping Cost:</p>
+                <p>$00.00</p>
+                </div>  
+                <div>
+                    <p>Total Cost:</p>
+                    <p>$1018.00</p>
+                    </div>   
+                <button class="btn cart__payment-btn">Pay Now</button>    
+        </div>
+        <div class="cart__payment-methods card">
+            <h2>Payment Methods</h2>
+            <div>
+                <i class="fa-brands fa-cc-visa fa-3x"></i>
+                <i class="fa-brands fa-cc-apple-pay fa-3x"></i>
+                <i class="fa-brands fa-cc-amex fa-3x"></i>
+                <i class="fa-brands fa-cc-amazon-pay fa-3x"></i>
+                <i class="fa-brands fa-cc-paypal fa-3x"></i>
+            </div>
+            </div>
+        </div>    
+        </div>
+        </main>
+    <!-- footer starts here -->
+    <footer class="footer flex-space-arround">
+        <div>
+            <lable for="subscribe">Subscribe to BotGaming</lable>
+            <input type="email" id="subscribe" name="subscribe" class="footer__input"
+            placeholder="Your Email Address"/>
+            <button class="btn btn-subscribe">Subscribe</button>
+            </div>
+            <div>
+                <p>&copy; Copyright 2024 Game Center.</p>
+                </div>
+        </footer>
+    <!-- footer end here -->
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
